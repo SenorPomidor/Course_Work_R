@@ -9,10 +9,10 @@ library(astsa)
 
 #Loading data
 getSymbols("AMZN", 
-						from = "2015-01-01", 
-						to = "2021-05-15", 
-						src =  "yahoo", 
-						adjust =  TRUE)
+	from = "2015-01-01", 
+	to = "2021-05-15", 
+	src =  "yahoo", 
+	adjust =  TRUE)
 
 #Amazon Stock Price Chart
 Stock_Data = `AMZN`[,4]
